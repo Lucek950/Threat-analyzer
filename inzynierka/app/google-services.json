@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1053481677017",
+    "firebase_url": "https://inzynierka-36f7c.firebaseio.com",
+    "project_id": "inzynierka-36f7c",
+    "storage_bucket": "inzynierka-36f7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053481677017:android:654451901fa325db",
+        "android_client_info": {
+          "package_name": "com.example.admin.inzynierka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053481677017-plh147hhnr8sgd288cc6gmlvc2mvckcp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.inzynierka",
+            "certificate_hash": "090df57b48d16e557447a46e2d2a8ace700f7ce5"
+          }
+        },
+        {
+          "client_id": "1053481677017-tj4h5meh61u9b726d8bhi7898jofdnpn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQPiZZOj_eh5y--l6m3_sZ8CDEkbBNoJ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053481677017-tj4h5meh61u9b726d8bhi7898jofdnpn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

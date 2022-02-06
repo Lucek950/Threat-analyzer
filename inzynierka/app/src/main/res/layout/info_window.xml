@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_snippet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:id="@+id/tv_lati"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:id="@+id/tv_lang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="viewStart" />
+</LinearLayout>

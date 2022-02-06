@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_pola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:background="@color/colorAccent"
+        android:onClick="onClick"
+        android:text="@string/pola_informacyjne"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <Button
+        android:id="@+id/btn_przyciski"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_pola"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="2dp"
+        android:background="@color/colorAccent"
+        android:onClick="onClick"
+        android:text="@string/przyciski"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="2dp"
+        android:text="Dziękuje użytkowniku, za przeczytanie podręcznika, teraz czuj i pomóż czuć sie innym bezpiecznie :)"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="2dp"
+        android:text="Zagrożenia statusujesz poprzez wybranie zagrożenia z mapy klinknięcie na niego i kliknęcie na opis zagrożenia!"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="2dp"
+        android:text="Nowe zagrożenia dodajesz poprzez przycisnięcie miejsca na mapie do momentu wyswietlenia sie okna dialogowego!"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="2dp"
+        android:text="Szanowny użytkowniku. Sens całej aplikacji polega na informowaniu przez innych użytkowników o żagrożeniu. Proszę pomóż innym i dodawaj oraz statusuj zagrożenia!"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_przyciski"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="2dp"
+        android:text="UWAGA!! Po pierwszym uruchomieniu aplikacji należy nią wyłączyć i właczyć!!"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold" />
+
+</RelativeLayout>

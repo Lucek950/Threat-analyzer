@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">inzynierka</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="wszystkie_zagro_enia">Wszystkie</string>
+    <string name="b_jki">Napaść</string>
+    <string name="rabunek">Rozboje</string>
+    <string name="kradzie">Kradzież</string>
+    <string name="w_amanie">Włamanie</string>
+    <string name="inne">Inne</string>
+    <string name="analizator_zagro_e">Analizator zagrożeń</string>
+
+    <string-array name="listaTypow">
+        <item>Wybierz typ przestepstwa</item>
+        <item>Napaść</item>
+        <item>Rozboje</item>
+        <item>Kradzież</item>
+        <item>Włamanie</item>
+        <item>Inne</item>
+    </string-array>
+
+    <string-array name="stopienieZagrozenia">
+        <item>Wybierz stopień zagrożenia</item>
+        <item>bardzo niski</item>
+        <item>niski</item>
+        <item>średni</item>
+        <item>wysoki</item>
+        <item>bardzo wysoki</item>
+    </string-array>
+
+    <string name="tv_1">pole powyżej informuje o filtrze zagorżenia jaki został wybrany</string>
+    <string name="tv_2">pola powyżej informują o aktualnej pozycji użytkownika. Uwaga!! Jeśli wystąpi błąd należy sprawdzić czy usłgi lokalizacyjne są włączne albo wybrać przycisk lokalizacji</string>
+    <string name="pola_informacyjne">Pola informacyjne</string>
+    <string name="przyciski">Przyciski</string>
+    <string name="instrukcja">Podręcznik</string>
+    <string name="tv_location">Lokalizacja - po naciśnieciu zostanie wyświetlona lokalizacja w której sie znajdujesz</string>
+    <string name="tv_filtr">Filtr zagrożenia - dzięki temu przyciskowi mozesz wyświetlić zagrożenia określonego typu. Po dłuższym przyciśnieciu przycisku zostaną wyświetlone wszystkie zagrożenia</string>
+    <string name="szeroko_b_d">Szerokość: błąd</string>
+    <string name="d_ugo_b_d">Długość: błąd</string>
+    <string name="drogi_u_ytkowniku">Drogi użytkowniku!</string>
+    <string name="czy_to_miejsce_jest_juz_bezpieczne">Czy to miejsce jest juz bezpieczne?</string>
+    <string name="opis">Opis</string>
+
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="2dp"
+    android:layout_marginEnd="2dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="5dp">
+
+    <TextView
+        android:id="@+id/tv_przyciski"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:background="@color/colorAccent"
+        android:text="@string/przyciski"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/b_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_filtr"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="22dp"
+        android:clickable="true"
+        app:fabCustomSize="30dp"
+        app:maxImageSize="30dp"
+        app:srcCompat="@android:drawable/ic_menu_mylocation" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/b_location2"
+        android:layout_width="41dp"
+        android:layout_height="47dp"
+        android:layout_below="@+id/tv_location"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_toStartOf="@+id/tv_policja"
+        android:clickable="true"
+        app:backgroundTint="@color/design_default_color_primary_dark"
+        app:fabCustomSize="30dp"
+        app:maxImageSize="20dp"
+        app:srcCompat="@android:drawable/ic_notification_overlay" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/b_location"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toEndOf="@+id/b_location"
+        android:text="@string/tv_location"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_zagrozenia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_przyciski"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        app:fabCustomSize="30dp"
+        app:maxImageSize="20dp"
+        app:srcCompat="@android:drawable/ic_dialog_map" />
+
+    <TextView
+        android:id="@+id/tv_filtr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn_zagrozenia"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toEndOf="@+id/btn_zagrozenia"
+        android:text="@string/tv_filtr"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <TextView
+        android:id="@+id/tv_policja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_location"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="3dp"
+        android:layout_toEndOf="@+id/btn_zagrozenia"
+        android:text="Ten przycisk wyświetla wszystkie zagrożenia, ze statystyk policji"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+
+
+
+</RelativeLayout>

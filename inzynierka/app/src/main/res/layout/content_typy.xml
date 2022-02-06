@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="2dp"
+    android:layout_marginEnd="2dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="4dp">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_all"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorAccent"
+        android:onClick="onClick"
+        android:text="@string/b_jki"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorAccent"
+        android:onClick="onClick"
+        android:text="@string/rabunek"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorAccent"
+        android:onClick="onClick"
+        android:text="@string/kradzie"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorAccent"
+        android:onClick="onClick"
+        android:text="@string/w_amanie"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorAccent"
+        android:onClick="onClick"
+        android:text="@string/inne"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+</RelativeLayout>
