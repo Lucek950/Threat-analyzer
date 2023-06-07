@@ -1,18 +1,18 @@
 
-#Threat Analyzer
-##Project Description
+# Threat Analyzer
+## Project Description
 "Threat Analyzer" is an engineering project aimed at developing an application for analyzing threats on Android devices. The application was created in January 2019 and utilizes the Google Maps API. It utilizes the device's current GPS location to display a map of potential threats. Data regarding threat locations is stored in the cloud, specifically on the Firebase platform. The application also allows users to submit their own threat reports, which are automatically added to the server.
 
-##Features
+## Features
 * Current GPS Location: The application utilizes the device's GPS capabilities to provide users with information about their current location.
 * Threat Map Display: The application presents a map interface with marked potential threats in the area.
 * Cloud Data Storage: Threat information is securely stored on the Firebase platform, ensuring availability and reliability.
 * User-Submitted Threat Reports: Users have the ability to submit their own threat reports through the application, which are automatically sent to the server.
 
-##Requirements
+## Requirements
 * Operating System: Android 8 (Oreo) or newer
 * 
-##Development
+## Development
 The "Threat Analyzer" application was developed using Android Studio in January 2019. To start working on the project, follow these steps:
 
 1. Download and install the latest version of Android Studio from the official website.
