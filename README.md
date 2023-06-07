@@ -11,7 +11,7 @@
 
 ## Requirements
 * Operating System: Android 8 (Oreo) or newer
-* 
+
 ## Development
 The "Threat Analyzer" application was developed using Android Studio in January 2019. To start working on the project, follow these steps:
 
